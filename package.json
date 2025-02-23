@@ -1,6 +1,6 @@
 {
   "name": "@leyyo/redis",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Redis wrapper",
   "keywords": [
     "redis",
@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@leyyo/builder": "^3.1.3",
-    "@leyyo/cache": "^1.0.6",
+    "@leyyo/cache": "^1.0.8",
     "redis": "^4.7.0"
   }
 }
