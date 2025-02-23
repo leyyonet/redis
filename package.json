@@ -1,6 +1,6 @@
 {
   "name": "@leyyo/redis",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Redis wrapper",
   "keywords": [
     "redis",
