@@ -1,4 +1,8 @@
-import {CacheBuilder, CacheChannel, CacheSet as CacheSetCommands, CacheHash as CacheHashCommands, CacheBasic as CacheBasicCommands, CachePropCompleted as CacheProp, CacheChannelDef, CacheBasicDef, CacheHashDef, CacheSetDef} from "@leyyo/cache";
+import {cacheHub} from "@leyyo/cache";
 
-export * from './redis-channel';
-export {CacheBuilder, CacheChannel, CacheSetCommands, CacheHashCommands, CacheBasicCommands, CacheProp, CacheChannelDef, CacheBasicDef, CacheHashDef, CacheSetDef};
+export {cacheHub};
+export * from './channel';
+export * from './client';
+export * from './entity';
+export * from './provider';
+export * from './segment';
